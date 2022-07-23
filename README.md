@@ -1,73 +1,61 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Description the project.
+# Book Flight
+> Book flight is a website where users can view available flight to buy.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux
+- Rails API
+- Tailwind
+## Live Demo
 
-## Live Demo (if available)
+# Getting Started
+## Steps to follow:
 
-[Live Demo Link](https://livedemo.com)
+- Choose a folder in your local machine where you want this repository to be copied
 
+- Clone this [repository](https://github.com/ZahraArshia/book-flight-frontend) to your local machine 
+- ```
+  git clone git@github.com:ZahraArshia/book-flight-frontend.git
+  ```
 
-## Getting Started
+- Navigate to `cd book-flight-frontend`  directory.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+- To install all the app dependencies on the command line run
+- ```
+  npm install
+  ``` 
+- To run app in the development mode run 
+- ```
+  npm start
+  ```
 ## Authors
 
-👤 **Author1**
+:woman: **Zahra Arshia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [GitHub](https://github.com/ZahraArshia)
+- [LinkedIn](https://www.linkedin.com/in/zahra-arshia-89247210a/)
 
-👤 **Author2**
+:man: **Saied Gaffer**
+- [GitHub](https://github.com/saied2035)
+- [LinkedIn](https://www.linkedin.com/in/saiedgaffer/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+:man: **Furkan Denizhan**
+- [GitHub](https://github.com/nevisende)
+- [LinkedIn](https://www.linkedin.com/in/furkan-denizhan/)
+
+:man: **Emmanuel Jolugbo**
+- [GitHub](https://github.com/Thermiee)
 
 ## 🤝 Contributing
+- Contributions, issues, and feature requests are welcome!
+- Feel free to check the [issues page](https://github.com/ZahraArshia/book-flight-frontend/issues).
 
-Contributions, issues, and feature requests are welcome!
+# Show your support
+Give a ⭐ if you like this project!
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+# Acknowledgments
+- Thanks to [Murat Korkmaz](https://www.behance.net/muratk) for his design inspiration [Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign).
+- Thanks to our learning and coding partners.
