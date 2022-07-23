@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# Ignore VSCode folders
+.vscode
+.history
+
 # testing
 /coverage
 
