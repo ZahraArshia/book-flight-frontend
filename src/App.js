@@ -1,15 +1,28 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
-import Homepage from './components/Homepage';
+import { Routes, Route } from 'react-router';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import HomePage from './components/HomePage';
+import LoginForm from './components/LoginForm';
+import SignupFrom from './components/SignupForm';
+import { isLoggedIn } from './redux/login/login';
 
-const App = () => (
-  <>
-    <Header />
-    <Routes>
-      <Route path="/" element={<Homepage />} />
-    </Routes>
-  </>
-);
+function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(isLoggedIn());
+  }, []);
+
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<HomePage />}>
+          <Route path="/Login" element={<LoginForm />} />
+        </Route>
+        <Route path="/Register" element={<SignupFrom />} />
+      </Routes>
+    </div>
+  );
+}
 
 export default App;
