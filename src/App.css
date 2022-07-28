@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MainSkleton {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  column-gap: 2rem;
+  height: 100vh;
+}
+
+.desktop-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12% 0%;
+  border-right: solid rgb(175, 175, 175) 1px;
+}
+
+.NavLinksList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+.NavLink,
+.logo {
+  width: 20vw;
+  margin: 1% 0;
+  height: 60px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavLink:hover {
+  background-color: #97bf0f;
+  color: white;
+}
+
+.NavFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SocialMediaBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15vw;
+}
+
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+}
+
+.MainTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7%;
+  margin-bottom: 2%;
+}
+
+.MainTitle p {
+  color: rgb(133, 134, 134);
+}
+
+.itemsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95%;
+  width: 95%;
+}
+
+.itemsCard img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.itemsCard h3 {
+  color: rgb(133, 134, 134);
+}
+
+.margin {
+  margin-bottom: 6%;
+}
+
+/* end of the nvigation side bar styles */
+
+/* start of the item page styles */
+
+.AddItemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.AddItemCard-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+form.AddItemCardform-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.labelName,
+.labelPrice,
+.labelImage,
+.labelFlight {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.AddItem-Input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.AddItemButton {
+  background-color: #97bf0f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  border-radius: 10px;
+}
+
+.AddItemButton:hover {
+  background-color: #000;
+}
+
+/* end of the item page styles */
+
+/* start of the delete page styles */
+.flightInfo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flightCard {
+  display: flex;
+  margin-bottom: 3rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.flightImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flightDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+.DeleteItemText {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/* end of the delete page styles */
+.detailMain {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  column-gap: 2rem;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.picSection {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.detailPic {
+  max-width: 500px;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.CustomPrevArrow {
+  background-color: #97bf0f;
+  width: 60px;
+  height: 70px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 10px;
+  position: absolute;
+  z-index: 50;
+}
+
+.detailsList {
+  margin: 25px;
+}
+
+.detailsList li {
+  text-align: left;
+  padding: 10px;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsList li:nth-child(odd) {
+  background: #e2e3e5;
+}
+
+.reserve-btn {
+  width: 140px;
+  height: 45px;
+  font-size: 16px;
+  color: #fff;
+  background: #97bf0f;
+  border: none;
+  outline: none;
+  border-radius: 45px;
+  margin-top: 2rem;
+  position: absolute;
+  right: 7%;
+}
+
+@media screen and (max-width: 640px) {
+  .detailMain {
+    grid-template-columns: 1fr;
+  }
+
+  .CustomPrevArrow {
+    display: none;
+  }
+
+  .detailsList {
+    margin: 0;
+  }
+
+  nav {
+    font-size: xx-small;
+  }
+
+  .SocialMediaBox {
+    display: none;
+  }
+
+  .MainTitle {
+    font-size: xx-small;
+  }
+
+  .itemsCard img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* end of details page styles */

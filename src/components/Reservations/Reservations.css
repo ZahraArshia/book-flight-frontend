@@ -1,0 +1,72 @@
+@import url('http://fonts.cdnfonts.com/css/gaela');
+
+.background {
+  background: #96bf01;
+  opacity: 0.85;
+}
+
+.add-reservation {
+  background: url('./background-image.jpg') no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.add-reservation > * {
+  font-family: 'GAELA', sans-serif;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  padding-right: 0.5rem;
+}
+
+::-webkit-datetime-edit-fields-wrapper {
+  padding-left: 0.7rem;
+}
+
+.custom-select select {
+  background-color: transparent;
+  color: white;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.custom-select select option {
+  background: none;
+  background-color: rgba(150, 191, 1, 0.85);
+}
+
+.add-reservation-container {
+  height: 95vh;
+}
+
+#reservations {
+  height: 80vh;
+  border: 1px solid black;
+  width: 100%;
+  margin-right: 2rem;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  background-color: rgba(150, 191, 1, 0.85);
+}
+
+.reservation {
+  gap: 1rem;
+  padding: 8px;
+  border-top: 1px solid black;
+  justify-content: space-evenly;
+}
+
+.reservation:first-child {
+  border-top: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .add-reservation-container {
+    height: 100vh;
+  }
+
+  #reservations {
+    margin-right: 0;
+  }
+}
