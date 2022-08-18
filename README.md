@@ -1,62 +1,83 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## BOOK-FLIGHT-BACKEND
+> BOOK-FLIGHT-backEND to is a RESTful API that allows users to book a flight.
 
-# Project Name
+![image](https://user-images.githubusercontent.com/78906545/181632616-d89e686f-7cb5-4089-a4df-cc85c344ca7a.png)
 
-> Description the project.
-
-
+## Demo
+[Live Demo](https://flightfull.netlify.app/)
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- REACT
+- REDUX
 
-## Live Demo (if available)
+## Backend Repository
 
-[Live Demo Link](https://livedemo.com)
+ [Pull Requests](https://github.com/ZahraArshia/book-flight-backend/pulls)
+ [Kanban Board](https://github.com/ZahraArshia/book-flight-backend/projects/1)
+
+## Kanban Board
+### Current state
+[Kanban Board](https://github.com/ZahraArshia/book-flight-frontend/projects/1)
+
+
+### Initial State
+![image](https://user-images.githubusercontent.com/78906545/181632939-840911e5-0e7a-42a6-a71e-220c0a534289.png)
+
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Clone [this repository](https://github.com/ZahraArshia/book-flight-frontend.git)
+  ```
+  git clone git@github.com:ZahraArshia/book-flight-frontend.git
+  ```
 
+- Navigate to the created folder.
 
-To get a local copy up and running follow these simple example steps.
+  ```
+  cd book-flight-frontend
+  ```
 
-### Prerequisites
+- To get started, In the root directory run:
 
-### Setup
+  ```
+  npm install
+  ```
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- To start the server run: 
+  ```
+  npm start
+  ```
+  Open the browser with 
+  ```
+  localhost:3000
+  ``` 
 
 
 ## Authors
 
-👤 **Author1**
+:woman: **Zahra Arshia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [GitHub](https://github.com/ZahraArshia)
+- [LinkedIn](https://www.linkedin.com/in/zahra-arshia-89247210a/)
 
-👤 **Author2**
+:man: **Saied Gaffer**
+- [GitHub](https://github.com/saied2035)
+- [LinkedIn](https://www.linkedin.com/in/saiedgaffer/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+:man: **Furkan Denizhan**
+- [GitHub](https://github.com/nevisende)
+- [LinkedIn](https://www.linkedin.com/in/furkan-denizhan/)
+
+:man: **Emmanuel Jolugbo**
+- [GitHub](https://github.com/Thermiee)
+- [LinkedIn](https://www.linkedin.com/in/emmanuel-jolugbo/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ZahraArshia/book-flight-backend/issues).
 
 ## Show your support
 
@@ -64,9 +85,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to our reviewers and coding partners.
 
 ## 📝 License
 

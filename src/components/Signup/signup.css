@@ -1,0 +1,18 @@
+@import url('http://fonts.cdnfonts.com/css/gaela');
+
+#signup {
+  background: url('../login-signup-background.png') no-repeat 50% 0;
+}
+
+#signup > * {
+  font-family: 'GAELA', sans-serif;
+}
+
+.signup-background {
+  background: #ffb400;
+}
+
+.signup-input::placeholder {
+  padding-left: 1rem;
+  color: white;
+}
