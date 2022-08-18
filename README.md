@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/78906545/181632616-d89e686f-7cb5-4089-a4df-cc85c344ca7a.png)
 
 ## Demo
-[Live Demo](https://intense-savannah-72561.herokuapp.com/)
+[Live Demo](https://flightfull.netlify.app/)
 ## Built With
 
 - REACT
