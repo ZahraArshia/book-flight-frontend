@@ -1,5 +1,5 @@
-## BOOK-FLIGHT-BACKEND
-> BOOK-FLIGHT-backEND to is a RESTful API that allows users to book a flight.
+## BOOK-FLIGHT-FRONTEND
+> BOOK-FLIGHT-FRONTEND allows users to signup/login to reserve and book a flight.
 
 ![image](https://user-images.githubusercontent.com/78906545/181632616-d89e686f-7cb5-4089-a4df-cc85c344ca7a.png)
 
